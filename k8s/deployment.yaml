@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: flask-minikube-app:local
-          imagePullPolicy: Never
+          image: geethika212/flask-minikube-app:latest
           ports:
             - containerPort: 5000
